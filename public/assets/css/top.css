@@ -1,0 +1,46 @@
+@charset "utf-8";
+.__point h3 .__tp {
+    margin-bottom: 16px;
+}
+
+.__point h3 {
+    padding-bottom: 20px;
+    margin-bottom: 27px;
+}
+.__point h3 {
+	border-bottom:1px solid #231815;
+	text-align:center;
+	color:#0092ff;
+}
+
+.__point h3 .__tp {
+	display:inline-block;
+	width:90px;
+	background:#FFED1B;
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	font-style:italic;
+	text-align:center;
+	line-height:1.3;
+}
+
+.__point h3 .__tp span {font-size:25px;}
+
+.__point h3 .__text {
+	display:block;
+	font-weight:normal;
+}
+
+.__point h3 .__text em {
+	display:inline-block;
+	line-height:0.9;
+	border-bottom:4px solid #ffed1b;
+	font-weight:bold;
+}
+
+em {
+	display:inline-block;
+	line-height:0.9;
+	border-bottom:4px solid #ffed1b;
+	font-weight:bold;
+}
