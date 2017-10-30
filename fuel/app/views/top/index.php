@@ -1,13 +1,14 @@
-<div class="row">
-    <h1>Nkキッズラボ</h1>
+<div class="row title">
+    <h1>NKキッズラボ</h1>
     <p>スクラッチを使ってプログラミング体験をしよう！</p>
 </div>
-<div class="row">
+<div class="row image">
     <?php echo Asset::img('scratch.jpg',array()) ?>
 </div>
 <div class="row">
     <div class="__point">
         <div class="col-md-4">
+        <div class="col-md-12">
             <h3>
                 <span class="__tp">Point <span>1</span></span>
                 <span class="__text"><em>論理的思考</em>が身に付く</span>
@@ -20,10 +21,10 @@
                 プログラミングを通して、論理的思考を伸ばすことにつながります。
            　</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-12">
             <h3>
                 <span class="__tp">Point <span>2</span></span>
-                <span class="__text">コミュニケーション能力<em>を伸ばす</em></span>
+                <span class="__text"><em>リーダーシップ</em>を育む</span>
             </h3>
             <p>
                 NKキッズラボではプログラミングのみならず、<br>
@@ -32,10 +33,10 @@
                 コミュニケーション能力やリーダーシップを伸ばすことが出来ます
             </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-12">
             <h3>
                 <span class="__tp">Point <span>3</span></span>
-                <span class="__text"><em>自主性、創造性、意識性</em>を育む</span>
+                <span class="__text"><em>自主性、創造性</em>を育む</span>
             </h3>
             <p>
                 NKキッズラボでは何よりも体験を重視します。<br>
@@ -43,6 +44,7 @@
                 プログラミンの他にもドローン製作やハードウェアなどの開発体験を通じて<br>
                 ものづくりを体験し、世の中にプロダクトを出す精神、チャレンジ精神を育みます。
             </p>
+        </div>
         </div>
     </div>
 </div>
