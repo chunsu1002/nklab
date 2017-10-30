@@ -33,5 +33,5 @@ desktop.ini
 /fuel/app/config/crypt.php
 
 #config files
-/fuel/app/config/*.php
-/fuel/app/config/*/*.php
+#/fuel/app/config/*.php
+#/fuel/app/config/*/*.php
