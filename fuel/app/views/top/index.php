@@ -13,8 +13,14 @@
             <div class="table-responsive">
                 <table class="table table-condensed">
                     <caption>今日のビットコイン</caption>
-                    <th>最終取引価格</th>
-                    <td><span class="ltp text-danger"></span></td>
+                    <tr>
+                        <th>最終取引価格</th>
+                        <th>最終取引日時</th>
+                    </tr>
+                    <tr>
+                        <td><span class="ltp text-danger"></span></td>
+                        <td><span class="timestamp"></span></td>
+                    </tr>
 <!--                    <td>
                         <input type="checkbox" checked data-toggle="button">
                     </td>-->

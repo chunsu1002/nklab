@@ -40,6 +40,7 @@ class Controller_Api_Bitflyerlightning extends Controller_Base
 //            $bids = $api_body['bids'];
 //            $asks = $api_body['asks'];
             $ltp = $api_body['ltp'];
+            $timestamp = $api_body['timestamp'];
             //レスポンス設定
             $data['status'] = 200;
             $data['api_status'] = $response->status;
@@ -47,6 +48,9 @@ class Controller_Api_Bitflyerlightning extends Controller_Base
 //            $data['bids'] = $bids;
 //            $data['asks'] = $asks;
             $data['ltp'] = number_format($ltp).'円';
+            $t = new DateTime($timestamp);
+            $t->setTimeZone(new DateTimeZone('Asia/Tokyo'));
+            $data['timestamp'] = $t->format('Y-m-d H:i:s');
         }
 
 //        //
