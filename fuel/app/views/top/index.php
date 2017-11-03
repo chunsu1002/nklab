@@ -2,8 +2,21 @@
     <h1>NKキッズラボ</h1>
     <p>スクラッチを使ってプログラミング体験をしよう！</p>
 </div>
-<div class="row image">
-    <?php echo Asset::img('scratch.jpg',array()) ?>
+<div class="row">
+    <div class="col-md-6">
+        <div class="image">
+            <?php echo Asset::img('scratch.jpg',array()) ?>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="row">
+            <span>現在のビットコインの価格：</span>
+            <span class="mid_price text-danger"></span>
+        </div>
+        <div class="row">
+            
+        </div>
+    </div>
 </div>
 <div class="row">
     <h4>NKラボについて</h4>
@@ -16,16 +29,16 @@
         その社会を牽引出来る人材育成、誰もがプロダクトの生産を行えるプラットホームとなるべく<br>
         結成されました。
     </p>
-    <p>
+<!--    <p>
         目指すところは、探査機開発です。
-    </p>
+    </p>-->
 </div>
 <div class="row">
     <h4>NKキッズラボについて</h4>
     <p>
         知識経済、テクノロジーの発展とともにエンジニアの数が少ないため、<br>
         日本の小学校では、2020年に小学生からプログラミングを必修とされる予定です。<br>
-        NKキッズラボでは、特にウリハッキョの子供達に、日本学校よりも早めに覚えてもらうためにプログラミ
+        NKキッズラボでは、特にウリハッキョの子供達に、日本学校よりも早めに覚えてもらうためにプログラミ...
     </p>
 </div>
 <div class="row">
