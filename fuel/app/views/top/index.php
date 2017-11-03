@@ -13,13 +13,13 @@
             <div class="table-responsive">
                 <table class="table table-condensed">
                     <caption>今日のビットコイン</caption>
-                    <th>取引価格</th>
-                    <td><span class="mid_price text-danger"></span></td>
+                    <th>最終取引価格</th>
+                    <td><span class="ltp text-danger"></span></td>
+<!--                    <td>
+                        <input type="checkbox" checked data-toggle="button">
+                    </td>-->
                 </table>
             </div>
-        </div>
-        <div class="row">
-            
         </div>
     </div>
 </div>

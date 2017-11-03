@@ -19,7 +19,7 @@ class Controller_Api_Bitflyerlightning extends Controller_Base
 //        $token = '';
 
         // Request_Curlを生成
-        $curl = \Request::forge('https://api.bitflyer.jp/v1/getboard', 'curl');
+        $curl = \Request::forge('https://api.bitflyer.jp/v1/getticker', 'curl');
 
         // HTTPメソッドを指定
         $curl->set_method('get');
@@ -36,15 +36,17 @@ class Controller_Api_Bitflyerlightning extends Controller_Base
             //
             $api_json_body = $response->body;
             $api_body = \Format::forge($api_json_body,'json')->to_array();
-            $mid_price = $api_body['mid_price'];
-            $bids = $api_body['bids'];
-            $asks = $api_body['asks'];
+//            $mid_price = $api_body['mid_price'];
+//            $bids = $api_body['bids'];
+//            $asks = $api_body['asks'];
+            $ltp = $api_body['ltp'];
             //レスポンス設定
             $data['status'] = 200;
             $data['api_status'] = $response->status;
-            $data['mid_price'] = number_format($mid_price).'円';
-            $data['bids'] = $bids;
-            $data['asks'] = $asks;
+//            $data['mid_price'] = number_format($mid_price).'円';
+//            $data['bids'] = $bids;
+//            $data['asks'] = $asks;
+            $data['ltp'] = number_format($ltp).'円';
         }
 
 //        //

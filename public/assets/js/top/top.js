@@ -8,8 +8,8 @@ $(function() {
             type:'GET',
             dataType : "json",
             success : function(data){
-                console.log(data.mid_price);
-                $(".mid_price").text(data.mid_price);
+//                console.log(data.ltp);
+                $(".ltp").text(data.ltp);
             }
         });
     },1000);
