@@ -10,8 +10,13 @@
     </div>
     <div class="col-md-6">
         <div class="row">
-            <span>現在のビットコインの価格：</span>
-            <span class="mid_price text-danger"></span>
+            <div class="table-responsive">
+                <table class="table table-condensed">
+                    <caption>今日のビットコイン</caption>
+                    <th>取引価格</th>
+                    <td><span class="mid_price text-danger"></span></td>
+                </table>
+            </div>
         </div>
         <div class="row">
             
