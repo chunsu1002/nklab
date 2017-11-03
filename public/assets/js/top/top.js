@@ -1,7 +1,7 @@
 $(function() {
-//    $(".mid_price").text(bitblyer_controller);
+
     //1秒ごとの最新を取りに行く
-//    setInterval(function(){
+    setInterval(function(){
         //価格get
         $.ajax({
             url:bitblyer_controller,
@@ -12,5 +12,5 @@ $(function() {
                 $(".mid_price").text(data.mid_price);
             }
         });
-//    },1000);
+    },1000);
 });
