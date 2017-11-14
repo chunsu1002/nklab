@@ -19,7 +19,7 @@
                     </tr>
                     <tr>
                         <td><span class="ltp text-danger"></span></td>
-                        <td><span class="timestamp"></span></td>
+                        <!--<td><span class="timestamp"></span></td>-->
                     </tr>
 <!--                    <td>
                         <input type="checkbox" checked data-toggle="button">
