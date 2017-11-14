@@ -10,7 +10,7 @@ $(function() {
             success : function(data){
 //                console.log(data.ltp);
                 $(".ltp").text(data.ltp);
-                $(".timestamp").text(data.timestamp);
+//                $(".timestamp").text(data.timestamp);
             }
         });
     },1000);

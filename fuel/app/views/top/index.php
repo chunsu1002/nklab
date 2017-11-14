@@ -12,10 +12,10 @@
         <div class="row">
             <div class="table-responsive">
                 <table class="table table-condensed">
-                    <caption>今日のビットコイン</caption>
+                    <caption>今日のビットコインキャッシュ</caption>
                     <tr>
                         <th>最終取引価格</th>
-                        <th>最終取引日時</th>
+                        <!--<th>最終取引日時</th>-->
                     </tr>
                     <tr>
                         <td><span class="ltp text-danger"></span></td>
