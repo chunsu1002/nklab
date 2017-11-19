@@ -3,39 +3,38 @@
     <p>スクラッチを使ってプログラミング体験をしよう！</p>
 </div>
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-12">
         <div class="image">
             <?php echo Asset::img('scratch.jpg',array()) ?>
         </div>
     </div>
-    <div class="col-md-6">
-        <div class="row">
+    <!--<div class="col-md-6">-->
+<!--        <div class="row">
             <div class="table-responsive">
                 <table class="table table-condensed">
                     <caption>今日のビットコインキャッシュ</caption>
                     <tr>
                         <th>最終取引価格</th>
-                        <!--<th>最終取引日時</th>-->
+                        <th>最終取引日時</th>
                     </tr>
                     <tr>
                         <td><span class="ltp text-danger"></span></td>
-                        <!--<td><span class="timestamp"></span></td>-->
+                        <td><span class="timestamp"></span></td>
                     </tr>
-<!--                    <td>
+                    <td>
                         <input type="checkbox" checked data-toggle="button">
-                    </td>-->
+                    </td>
                 </table>
             </div>
-        </div>
-    </div>
+        </div>-->
+    <!--</div>-->
 </div>
 <div class="row">
     <h4>NKラボについて</h4>
     <p>
         AI,IOT,ドローン,仮想通貨などのテクノロジーの発展により、社会が大きく変わろうとしています。<br>
         2017年現時点では、まだ上記のテクノロジーは一部もしくは実験的に導入されているとはいえ、<br>
-        まだまだ発展途上であり、根本的にそれらを開発もしくはコントロールできる体制が整っておらず、<br>
-        ましてやそれらに携わる人材は完全に不足しております。<br>
+        まだまだ発展途上であり、それらに携わる人材は不足しております。<br>
         NKラボは上記テクノロジーが実際に社会に普及し、世の中の生産性が飛躍的に高まる時代に<br>
         その社会を牽引出来る人材育成、誰もがプロダクトの生産を行えるプラットホームとなるべく<br>
         結成されました。
@@ -49,7 +48,8 @@
     <p>
         知識経済、テクノロジーの発展とともにエンジニアの数が少ないため、<br>
         日本の小学校では、2020年に小学生からプログラミングを必修とされる予定です。<br>
-        NKキッズラボでは、特にウリハッキョの子供達に、日本学校よりも早めに覚えてもらうためにプログラミ...
+        NKキッズラボでは、特にウリハッキョの子供達に、日本学校よりも早めに覚えてもらうためにプログラミングを学べる環境<br>
+        を提供する活動を行っております。<br>
     </p>
 </div>
 <div class="row">
@@ -95,10 +95,10 @@
         <!--</div>-->
     </div>
 </div>
-<div class="row">
+<!--<div class="row">
     お問い合わせ
-</div>
+</div>-->
 <?php
 //js適用
-Asset::js(array('top/top.js'), array(), 'add_js', false);
+//Asset::js(array('top/top.js'), array(), 'add_js', false);
 ?>
